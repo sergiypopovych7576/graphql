@@ -1,0 +1,13 @@
+<div *ngFor="let item of episodes">
+  {{item.title}}
+  {{item.created}}
+  {{item.director}}
+</div>
+{{episodes.length}}
+
+<div *ngFor="let item of planets">
+  {{item.name}}
+</div>
+{{planets.length}}
+
+<router-outlet />
